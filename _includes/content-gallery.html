@@ -1,0 +1,7 @@
+{% comment %} Populated from _data/images.yml {% endcomment %}
+
+<div class="gallery">
+    {% for image in site.data.images %}
+    <img src="{{ image.imageUrl }}" loading="auto" alt="{{ image.imageAlt }}." class="gallery-image">
+    {% endfor %}
+</div>

@@ -1,0 +1,8 @@
+#
+# Website content
+# Used to populate content across the website
+#
+
+- siteName: Chris Porter, graphic designer
+  siteDescription: SEO description here
+  socialOG: assets/img/og.jpg

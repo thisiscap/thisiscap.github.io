@@ -1,0 +1,15 @@
+//
+// SASS Mixins
+//
+
+// Preferences
+
+@mixin pf($type) {
+    $motion: "(prefers-reduced-motion: no-preference)";
+
+    @if $type == motion {
+        @media only screen and #{$motion} {
+            @content
+        }
+    }
+}

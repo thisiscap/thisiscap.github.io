@@ -1,0 +1,88 @@
+//
+// Site wide styles
+// In the case of this project, everything
+//
+
+// Typography
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+$fontMain: 'IBM Plex Sans', sans-serif;
+
+html {
+    @include pf(motion) {
+        scroll-snap-type: y mandatory;
+    }
+}
+
+body {
+    font-family: $fontMain;
+}
+
+::selection {
+    background-color: blue;
+    color: burlywood;
+}
+
+$sectionHeightOffset: 100px;
+$siteGutter: 15px;
+
+section.content {
+    display: flex;
+    height: calc(100vh - #{$sectionHeightOffset});
+    padding: $siteGutter;
+    background-color: #EDE7DC;
+
+    @include pf(motion) {
+        scroll-snap-align: center;
+    }
+}
+
+section.content-intro {}
+
+section.content-gallery {
+    display: block;
+    padding: 0;
+}
+
+section.content-outro {
+    align-items: flex-end;
+}
+
+div.editorial {
+    font-size: 1.6em;
+
+    h1, h2, h3, h4, h5, h6, p, small {
+        max-width: 42ch;
+        margin-bottom: .5rem;
+    }
+
+    a {
+        &:link {
+            text-decoration: underline solid skyblue;
+        }
+        &:visited {}
+        &:hover {
+            text-decoration: underline wavy blue;
+        }
+        &:active {}
+    }
+}
+
+$colourAccent: lime;
+
+.swiper-container {
+    height: calc(100vh - #{$sectionHeightOffset});
+
+    img {
+        width: 100%;
+
+        @supports (object-fit: cover) {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background: chartreuse;
+}
