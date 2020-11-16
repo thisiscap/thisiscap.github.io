@@ -1,0 +1,19 @@
+#
+# Project config
+#
+
+# Set timezone
+timezone: Europe/London
+
+# Compile SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# URL structure
+# url: 'https://christopherporter.co.uk'
+
+# Site meta fallbacks
+name: Chris Porter, graphic designer
+metaDescription: The tiny online presence of graphic designer, Chris Porter
+metaSocialImage: /assets/filename.jpg
