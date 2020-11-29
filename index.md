@@ -8,12 +8,7 @@ title: Hello
 # metaSocialImage: filename.jpg
 ---
 
-<!-- <header>
-    <h1>{{ page.title }}</h1>
-</header> -->
-
 <main id="content">
-
     <section class="content content-intro">
         <div class="editorial">
             <h1>{{ page.title }}</h1>
@@ -55,10 +50,9 @@ title: Hello
                     rel="noopener noreferrer">hi@chrisporter.uk</a>.</p>
             <p>You can also find me on <a href="https://">LinkedIn</a> & <a href="#">Are.na</a>.</p>
             <footer>
-                <small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter</small>
-                <small>All images &copy; of their respective owners</small>
+                <small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter
+                <br>All images &copy; of their respective owners</small>
             </footer>
         </div>
     </section>
-
 </main>
