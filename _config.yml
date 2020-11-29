@@ -10,8 +10,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# URL structure
-# url: 'https://christopherporter.co.uk'
+# Set base URL
+url: 'https://chrisporter.uk'
 
 # Site meta fallbacks
 name: Chris Porter, graphic designer
