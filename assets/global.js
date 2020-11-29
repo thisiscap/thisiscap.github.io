@@ -3,8 +3,8 @@
 //
 
 //
-// Swiper, used to power the media gallery
-// https://swiperjs.com/
+// SITE
+// Swiper.js init and configuration
 // Reduced motion additions from https://dev.to/vanaf1979/respecting-prefers-reduced-motion-with-javascript-and-react-42if
 //
 

@@ -22,7 +22,6 @@
     {% comment %} CSS stylesheets {% endcomment %}
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="{{ '/assets/global.css' | prepend: site.url }}">
-
 </head>
 
 <!--
@@ -32,15 +31,14 @@ Hi, having a look behind the scenes? Check out https://github.com/thisiscap/ if 
 -->
 
 <body {% if page.name %}class="page__{{ page.name | remove: ".md" }}" {% endif %}>
-    {% comment %} Child template {% endcomment %}
+    {% comment %} Child template content {% endcomment %}
     {{ content }}
 
-    {% comment %} Gallery JS - https://swiperjs.com/ {% endcomment %}
+    {% comment %} Swiper.js - https://swiperjs.com/ {% endcomment %}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     {% comment %} Global JS {% endcomment %}
-    <script src="{{ '/assets/global.js' | prepend: site.url }}"></script>
-
+    <script src="{{ '/assets/global.js' | prepend: site.url }}" defer></script>
 </body>
 
 </html>

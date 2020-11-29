@@ -26,14 +26,22 @@ title: Hello
     </section>
 
     <section class="content content-gallery">
-        {% comment %} Swiper JS gallery {% endcomment %}
+        {% comment %} Image gallery, powered with Swiper.js {% endcomment %}
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                {% for image in site.data.images %}
+                {% for image in site.data.gallery %}
                 <figure class="swiper-slide" {% if image.imageDelay %}data-swiper-autoplay="{{ image.imageDelay }}"
                     {% endif %}>
-                    <img src="{{ image.imageSrc }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
-                        alt="{{ image.imageAlt }}.">
+                    {% comment %} Offers different sizes, both portrait and landscape {% endcomment %}
+                    <picture>
+                        <source media="(orientation: portrait)" srcset="{{ image.imageSrcPortraitSml }} 1024w,
+                        {{ image.imageSrcPortrait }} 2048w" sizes="100vw">
+                        <source media="(orientation: landscape)" srcset="{{ image.imageSrcLandscapeSml }} 1368w,
+                        {{ image.imageSrcLandscape }} 2736w" sizes="100vw">
+                        <img src="{{ image.imageSrcLandscapeSml }}"
+                            loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="2736" height="1824"
+                            alt="{{ image.imageAlt }}.">
+                    </picture>
                 </figure>
                 {% endfor %}
             </div>

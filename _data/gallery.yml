@@ -1,0 +1,21 @@
+#
+# Gallery content
+#
+# imageSrcLandscapeSml: https://...
+# imageSrcLandscape: https://...
+# imageSrcPortraitSml: https://...
+# imageSrcPortrait: https://...
+# imageAlt: Full stops are added in the markup
+# imageDelay: Useful if you want the Swiper autoplay to hold a slide longer, i.e. 2000 (for 2000ms)
+#
+
+- imageSrcLandscapeSml: https://d2w9rnfcy7mm78.cloudfront.net/9511324/original_5d8b7bdbee7d2e7c39b2e2c6c6dc7af7.jpg?1605444526?bc=0
+  imageSrcLandscape: https://d2w9rnfcy7mm78.cloudfront.net/9511324/original_5d8b7bdbee7d2e7c39b2e2c6c6dc7af7.jpg?1605444526?bc=0
+  imageSrcPortraitSml: https://d2w9rnfcy7mm78.cloudfront.net/9511323/original_edd98dac4d45c53d1d71ea2860e40cad.jpg?1605444526?bc=0
+  imageSrcPortrait: https://d2w9rnfcy7mm78.cloudfront.net/9511323/original_edd98dac4d45c53d1d71ea2860e40cad.jpg?1605444526?bc=0
+  imageAlt: Website design and development for the raw group
+- imageSrcLandscapeSml: https://d2w9rnfcy7mm78.cloudfront.net/9511140/original_30b0559949172e8705b14bb06f88c392.jpg?1605440993?bc=0
+  imageSrcLandscape: https://d2w9rnfcy7mm78.cloudfront.net/9511140/original_30b0559949172e8705b14bb06f88c392.jpg?1605440993?bc=0
+  imageSrcPortraitSml: https://d2w9rnfcy7mm78.cloudfront.net/9511139/original_a5f2894efd0c649543bb770c447523b3.jpg?1605440993?bc=0
+  imageSrcPortrait: https://d2w9rnfcy7mm78.cloudfront.net/9511139/original_a5f2894efd0c649543bb770c447523b3.jpg?1605440993?bc=0
+  imageAlt: Business card design for Tillo, printed by Generation Press
