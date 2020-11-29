@@ -34,7 +34,7 @@ title: Hello
                         <source media="(orientation: landscape)" srcset="{{ image.imageSrcLandscapeSml }} 1368w,
                         {{ image.imageSrcLandscape }} 2736w" sizes="100vw">
                         <img src="{{ image.imageSrcLandscapeSml }}"
-                            loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="2736" height="1824"
+                            loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="1368" height="912"
                             alt="{{ image.imageAlt }}.">
                     </picture>
                 </figure>
@@ -51,7 +51,7 @@ title: Hello
             <p>You can also find me on <a href="https://">LinkedIn</a> & <a href="#">Are.na</a>.</p>
             <footer>
                 <small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter
-                <br>All images &copy; of their respective owners</small>
+                    <br>All images &copy; of their respective owners</small>
             </footer>
         </div>
     </section>
