@@ -49,11 +49,17 @@ section.content-outro {
 }
 
 div.editorial {
-    font-size: 1.6em;
-
     h1, h2, h3, h4, h5, h6, p, small {
         max-width: 42ch;
         margin-bottom: .5rem;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        font-size: 1.6em;
+    }
+
+    small {
+        font-size: 1em;
     }
 
     a {
