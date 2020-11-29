@@ -19,6 +19,9 @@
     <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | prepend: site.url }}">
     <meta name="theme-color" content="#fafafa">
 
+    {% comment %} Preconnect to Google fonts' origin {% endcomment %}
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     {% comment %} CSS stylesheets {% endcomment %}
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="{{ '/assets/global.css' | prepend: site.url }}">
