@@ -55,8 +55,7 @@ title: Hello
                     rel="noopener noreferrer">hi@chrisporter.uk</a>.</p>
             <p>You can also find me on <a href="https://">LinkedIn</a> & <a href="#">Are.na</a>.</p>
             <footer>
-                <small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter</small>
-                <small>All images &copy; of their respective owners</small>
+                <p><small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter<br>All images &copy; of their respective owners</small></p>
             </footer>
         </div>
     </section>
