@@ -12,11 +12,11 @@ title: Hello
     <section class="content content-intro">
         <div class="editorial">
             <h1>{{ page.title }}</h1>
-            <p>So you’ve found yourself on my website, welcome&excl;</p>
-            <p>As a graphic designer I work with people to craft the context, purpose and design of their narratives.
-            </p>
-            <p>Some of these people have been Alzheimer&apos;s Society, Barrow Cadbury, Hunt
-                Wheels, ITV, OOFOS, National Housing Federation and Universal Music.</p>
+            <p>So you’ve found yourself on my website, welcome! If you don’t already know, my name is Chris. For seven
+                years I’ve been working as a graphic designer, helping people communicate meaningfully across print,
+                digital and physical space.</p>
+            <p>Some of these people have been Alzheimer’s Society, Barrow Cadbury, Hunt Wheels, ITV, OOFOS, the National
+                Housing Federation and Universal Music.</p>
         </div>
     </section>
 
@@ -46,12 +46,14 @@ title: Hello
 
     <section class="content content-outro">
         <div class="editorial">
-            <p>Interested in knowing more? Get in touch at <a href="mailto:hi@chrisporter.uk" target="_blank"
-                    rel="noopener noreferrer">hi@chrisporter.uk</a>.</p>
-            <p>You can also find me on <a href="https://">LinkedIn</a> & <a href="#">Are.na</a>.</p>
+            <p>If you’ve got this far I’m flattered. Outside of work I enjoy playing with language in writing and poetry
+                and the tactile, physical processes of film photography and print making.</p>
+            <p>Any questions? Reach out to me at <a href="mailto:hi@chrisporter.uk" target="_blank"
+                    rel="noopener noreferrer">hi@chrisporter.uk</a>, or you can find me on both <a
+                    href="https://">LinkedIn</a> & <a href="#">Are.na</a>.
             <footer>
-                <small>&copy; 2013 - {{ site.time | date: "%Y" }} Chris Porter
-                    <br>All images &copy; of their respective owners</small>
+                <small>&copy; 2013 &mdash; {{ site.time | date: "%Y" }} Chris Porter. All images &copy; of their
+                    respective owners</small>
             </footer>
         </div>
     </section>
