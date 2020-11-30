@@ -12,14 +12,13 @@ title: Hello
     <section class="content content-intro">
         <div class="editorial">
             <h1>{{ page.title }}</h1>
-            <p>So you’ve found yourself on my website, welcome! If you don’t already know, my name is Chris. For seven
-                years I’ve been working as a graphic designer, helping people communicate meaningfully across print,
-                digital and physical space.</p>
+            <p>So you’ve found yourself on my website, welcome! If you don’t already know, my name is Chris.</p>
+            <p>For seven years I’ve been working as a graphic designer, helping people communicate meaningfully across
+                print, digital and physical space.</p>
             <p>Some of these people have been Alzheimer’s Society, Barrow Cadbury, Hunt Wheels, ITV, OOFOS, the National
                 Housing Federation and Universal Music.</p>
         </div>
     </section>
-
     <section class="content content-gallery">
         {% comment %} Image gallery, powered with Swiper.js {% endcomment %}
         <div class="swiper-container">
@@ -43,17 +42,18 @@ title: Hello
             <div class="swiper-pagination"></div>
         </div>
     </section>
-
     <section class="content content-outro">
         <div class="editorial">
-            <p>If you’ve got this far I’m flattered. Outside of work I enjoy playing with language in writing and poetry
+            <p>If you’ve got this far I’m flattered.</p>
+            <p>Outside of work I enjoy playing with language in writing and poetry
                 and the tactile, physical processes of film photography and print making.</p>
             <p>Any questions? Reach out to me at <a href="mailto:hi@chrisporter.uk" target="_blank"
                     rel="noopener noreferrer">hi@chrisporter.uk</a>, or you can find me on both <a
-                    href="https://">LinkedIn</a> & <a href="#">Are.na</a>.
+                    href="https://www.linkedin.com/in/chrisporterdesigner/">LinkedIn</a> & <a
+                    href="https://www.are.na/sea-pea">Are.na</a>.</p>
             <footer>
                 <small>&copy; 2013 &mdash; {{ site.time | date: "%Y" }} Chris Porter. All images &copy; of their
-                    respective owners</small>
+                    respective owners.</small>
             </footer>
         </div>
     </section>
