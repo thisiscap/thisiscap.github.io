@@ -18,6 +18,8 @@ body {
     font-family: $fontMain;
 }
 
+$colourAccent: #D8EC83;
+
 ::selection {
     background-color: blue;
     color: burlywood;
@@ -30,15 +32,14 @@ section.content {
     display: flex;
     height: calc(100vh - #{$sectionHeightOffset});
     padding: $siteGutter;
+    background-color: $colourAccent;
 
     @include pf(motion) {
         scroll-snap-align: center;
     }
 }
 
-section.content-intro {
-    background-color: #D8EC83;
-}
+section.content-intro {}
 
 section.content-gallery {
     display: block;
@@ -46,18 +47,30 @@ section.content-gallery {
 }
 
 section.content-outro {
-    background-color: #AEE3F7;
     align-items: flex-end;
 }
 
 div.editorial {
-    h1, h2, h3, h4, h5, h6, p, small {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    small {
         max-width: 42ch;
         line-height: 1.1;
         margin-bottom: .5rem;
     }
 
-    h1, h2, h3, h4, h5, h6, p {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
         font-size: 1.6em;
     }
 
@@ -69,15 +82,16 @@ div.editorial {
         &:link {
             text-decoration: underline solid skyblue;
         }
+
         &:visited {}
+
         &:hover {
             text-decoration: underline wavy blue;
         }
+
         &:active {}
     }
 }
-
-$colourAccent: lime;
 
 .swiper-container {
     height: calc(100vh - #{$sectionHeightOffset});
